@@ -1,0 +1,125 @@
+{
+  "valid": {
+    "category_id": "8",
+    "title": "Creeping Death",
+    "alias": "creeping-death",
+    "content": "A limited edition Egyptian watch",
+    "price": "100",
+    "old_price": "120",
+    "status": "1",
+    "keywords": "kw",
+    "description": "The finest piece of classic clock machinery!",
+    "cat": "Men",
+    "img": "no_image.jpg",
+    "hit": "1"
+  },
+
+  "valid_updated": {
+    "category_id": "3",
+    "title": "I'm sure she feels sorrow",
+    "alias": "i-m-sure-she-feels-sorrow",
+    "content": "what the..?",
+    "price": "102",
+    "old_price": "118",
+    "status": "0",
+    "keywords": "updated, bitch",
+    "description": "Shittiest watch there is",
+    "cat": "Kids",
+    "img": "no_image.jpg",
+    "hit": "0"
+  },
+
+  "update_title": {
+    "title": "just one year of love is better than a lifetime alone"
+  },
+
+  "valid_for_alias": {
+    "category_id": "2",
+    "title": "Из окна",
+    "alias": "iz-okna",
+    "content": "",
+    "price": "100",
+    "old_price": "125",
+    "status": "1",
+    "keywords": "",
+    "description": "",
+    "hit": "0"
+  },
+
+  "invalid_price": {
+    "category_id": "2",
+    "title": "Are you tinkering with prices again? Cpt. Price??",
+    "content": "No, no",
+    "price": "abc",
+    "old_price": "123 shut your fucking face uncle fucker",
+    "status": "1",
+    "keywords": "kw",
+    "description": "Next time eat a salad",
+    "hit": "1"
+  },
+
+  "invalid_category": {
+    "category_id": null,
+    "title": "Are you tinkering with category again?",
+    "content": "No, no",
+    "price": "100",
+    "old_price": "125",
+    "status": "1",
+    "keywords": "kw",
+    "description": "Next time eat a salad",
+    "hit": "1"
+  },
+
+  "invalid_status": {
+    "category_id": "1",
+    "title": "Are you tinkering with category again?",
+    "content": "No, no",
+    "price": "100",
+    "old_price": "125",
+    "status": null,
+    "keywords": "kw",
+    "description": "Next time eat a salad",
+    "hit": "1"
+  },
+
+  "invalid_hit": {
+    "category_id": "1",
+    "title": "Are you tinkering with category again?",
+    "content": "No, no",
+    "price": "100",
+    "old_price": "125",
+    "status": "1",
+    "keywords": "kw",
+    "description": "Next time eat a salad",
+    "hit": null
+  },
+
+  "missing_props": {
+    "category_id": "7",
+    "content": "No, no",
+    "price": "100",
+    "old_price": "125",
+    "status": "1",
+    "keywords": "kw",
+    "description": "Think fast, chuckle nuts",
+    "hit": "1"
+  },
+
+  "invalid_product": {
+    "id": "-1",
+    "category_id": "1",
+    "title": "Valid Title",
+    "alias": "valid-title",
+    "content": "Valid Content",
+    "price": "100",
+    "old_price": "120",
+    "status": "1",
+    "keywords": "Valid Keywords",
+    "description": "Valid Description",
+    "hit": "1"
+  },
+
+  "empty": {},
+
+  "null": null
+}

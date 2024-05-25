@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "products",
+  "title": "Products",
+  "description": "Shop products list",
+  "type": "array",
+
+  "items": {
+    "type": "object",
+    "properties": {
+      "alias": {
+        "type": "string"
+      },
+      "cat": {
+        "type": "string"
+      },
+      "category_id": {
+        "type": "string",
+        "pattern": "^\\d+$"
+      },
+      "content": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "hit": {
+        "type": "string",
+        "pattern": "^[012]$"
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^\\d+$"
+      },
+      "img": {
+        "type": "string",
+        "pattern": ".*\\.(jpe?g|png|webp)"
+      },
+      "keywords": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "old_price": {
+        "type": "string",
+        "pattern": "^\\d+(.\\d+)?$"
+      },
+      "price": {
+        "type": "string",
+        "pattern": "^\\d+(.\\d+)?$"
+      },
+      "status": {
+        "type": "string",
+        "pattern": "^[01]$"
+      },
+      "title": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "alias",
+      "cat",
+      "category_id",
+      "content",
+      "description",
+      "hit",
+      "id",
+      "img",
+      "keywords",
+      "old_price",
+      "price",
+      "status",
+      "title"
+    ]
+  }
+}
